@@ -405,17 +405,15 @@ best_age_groups
 sns.barplot(data = best_age_groups, x= 'athlete_age',y = 'athlete_average_speed')
 
 
-# In[229]:
+# In[236]:
 
 
 get_ipython().system('jupyter nbconvert --to script Pandas_Project.ipynb')
 
 
-# In[233]:
+# In[ ]:
 
 
-import os
-print(os.listdir())  # Lists all files in the current folder
 
 
 
